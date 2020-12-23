@@ -1,0 +1,170 @@
+	<!doctype html>
+	<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="stylemain.css">
+
+		<title>Min hemsida</title>
+	</head>
+	<body>
+		<div class="container">
+			<!-- header -->
+			
+				<img src="img/main.jpg" class="img-fluid" >
+			<!-- meny-->
+		
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+				<div class="container-fluid">
+					<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#globalt">Globala nyheter</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#lokalt">Locala nyheter</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" onclick="alert('Här kommer finnas sparade artiklar')" href="#">Bookmarks</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" onclick="alert('Här kommer finnas information om oss')" href="#">Om oss</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#demo">Demo</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="index.html">Log out</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+
+			</nav> <!--meny slutar-->
+	
+			<section class="sectionmargin">
+				<div class="container">
+					<h1 class="display-4">Prototyping that looks real</h1>
+					<p>Det finns stora brister i kunskap när det gäller mobbning på nätet eftersom lärare måste söka information själva och vara motiverade samt ha tid att göra det. Det saknas obligatorisk utbildning i ämnet och i artiklarna som finns kring nätmobbning fattas det väldig viktig information om utmaningar som pågår bland ungdomarna, trenderna och allt möjligt som rör unga. </p>
+					<p>Detta projekt är designat med fokus på lärare men sedan utvecklats för att vara tillgängligt för alla. Både föräldrar och barn hade kunnat dra nytta av projektet eftersom kunskap är makt och ju mer man vet desto mer välgrundade beslut kan man ta.  </p>
+				</div>	
+			</section>
+			<!--nyhetflödet-->
+			<section class="kolumnmargin" id="globalt">
+				<div class="container">
+					<h1 class=display-4>Globala nyheter</h1>
+					<div class="row">
+						<div class="col-lg kolumnmargin">
+							<img src="img/bild1.jpg" class="img-fluid">
+							<h3 class="kolumnmargin">What is benadryl challenge</h3>
+							<p>The benadryl challenge is encouraging social media users to overdose on the over-the-counter drug in order to hallucinate.</p>
+							<br>
+							<br>
+							<button class="btn btn-secondary" onclick="handleClick(this)">Läs mer</button>
+						</div>
+						<div class="col-lg kolumnmargin">
+							<img src="img/car.jpg" class="img-fluid">
+							<h3 class="kolumnmargin">The "Cha-cha slide" challenge</h3>
+							<p>Another absurdly dangerous TikTok challenge has sparked concern over videos of young users driving to the lyrics of a late 2000s dance track.</p>
+							
+							<button class="btn btn-secondary" onclick="handleClick(this)">Läs mer</button>
+						</div>
+						<div class="col-lg kolumnmargin">
+							<img src="img/bild2.jpg" class="img-fluid">
+							<h3 class="kolumnmargin">The Skull-Breaker challenge</h3>
+							<p>This injury-inducing challenge that went viral on TikTok involves three people, with two people standing on either side of a third person who has no idea about what is about to happen</p>
+							<button class="btn btn-secondary" onclick="handleClick(this)">Läs mer</button>
+						</div>
+					</div>
+				</section>
+				<section class="kolumnmargin" id="lokalt">
+					<div class="container">
+						<h1 class=display-4>Lokala nyheter</h1>
+						<div class="row">
+							<div class="col-lg kolumnmargin">
+								<img src="img/drugs.jpg" class="img-fluid">
+								<h3 class="kolumnmargin">What is benadryl challenge</h3>
+								<p>The benadryl challenge is encouraging social media users to overdose on the over-the-counter drug in order to hallucinate.</p>
+								<br>
+								<br>
+								<button class="btn btn-secondary" onclick="handleClick(this)">Läs mer</button>
+							</div>
+							<div class="col-lg kolumnmargin">
+								<img src="img/bild3.jpg" class="img-fluid">
+								<h3 class="kolumnmargin">The "Cha-cha slide" challenge</h3>
+								<p>Another absurdly dangerous TikTok challenge has sparked concern over videos of young users driving to the lyrics of a late 2000s dance track.</p>
+
+								<button class="btn btn-secondary"onclick="handleClick(this)">Läs mer</button>
+							</div>
+							<div class="col-lg kolumnmargin">
+								<img src="img/friends.jpg" class="img-fluid">
+								<h3 class="kolumnmargin">The Skull-Breaker challenge</h3>
+								<p>This injury-inducing challenge that went viral on TikTok involves three people, with two people standing on either side of a third person who has no idea about what is about to happen</p>
+								<button class="btn btn-secondary"onclick="handleClick(this)">Läs mer</button>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!--demo-->
+				<section class="videosection" id="demo">
+					<div class="container">
+						<h1 class=display-4>Se min prototyp in action</h1>
+						<div class="row">
+							<div class="col-lg-6 kolumnmargin">
+								<p>Syftet med detta projekt var att fokusera  på ämnet ” challenges på sociala media” och ta hänsyn till feedbacken som vi fått från förra projektet. Jag ville också ge användare möjlighet att spara artiklar för att läsa senare och möjlighet att skicka feedback.
+								Ytterligare vill jag dela nyhetsflödet i två delar: globala och lokala nyheter, vilket var en intressant synpunkt som vi fått från en av lärarna. På detta sätt kan man få bättre koll på vad som händer just lokalt för att kunna snabbare agera och även förhoppningsvis förebygga sådana incidenter i skolor.</p>
+								<br>
+								<br>
+								<div class="Zoom">
+									<img src="img/prototypbild.jpg" class="img-fluid">
+								</div>
+							</div>
+							<div class="col-lg-6 kolumnmargin">
+								<video class="skugga"  width="500" height="450" controls=""><source src="img/prototyp.mp4" type="video/mp4"></video>
+								</div>
+							</div>
+						</div>
+					</section>
+					<footer class="footer mt-auto py-3 text-muted sidfot kolumnmargin">
+						<div class="container">
+							Copyrigt &copy; 2020 Ekaterina Botina
+							<br>
+							<button class="open-button" onclick="openForm()">Kontakta mig</button>
+
+							<div class="form-popup" id="contactForm">
+								<form action="/action_page.php" class="form-container">
+									
+									<label for="email"><b>Your email</b></label>
+									<input type="text" placeholder="Enter Email" name="email" required>
+
+									<label for="psw"><b>Message</b></label>
+									<input type="message" placeholder="Enter message" name="psw" required>
+
+									<button type="submit" class="btn">Skicka</button>
+									<button type="submit" class="btn cancel" onclick="closeForm()">Cancel</button>
+								</form>
+							</div>
+						</div>
+					</footer>
+
+
+				</div>
+
+				
+
+				<!-- Bootstrap Bundle with Popper -->
+				<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+				<script src="script.js"></script>
+
+				
+</body>
+</html>
