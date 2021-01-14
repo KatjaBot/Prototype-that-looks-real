@@ -19,6 +19,17 @@ inputs.forEach(input => {
 	input.addEventListener("blur", remcl);
 });
 
+//Getting user input
+ 
+let currentAddress = window.location.href;
+console.log(currentAddress);
+let currentURL = new URL(window.location.href);
+console.log(currentURL);
+console.log(currentURL.search);
+var searchParams = new URLSearchParams(currentURL.search);
+let fname = searchParams.get("fname");
+console.log(fname);
+document.getElementById("formName").innerHTML = "Welcome back, " + fname;
 
 // "Animates" buttons
 function handleClick(element){
